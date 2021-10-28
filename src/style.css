@@ -13,4 +13,5 @@
 body {
     font-family: var(--font-first);
     background-color: var(--color-first);
+    color: var(--color-third);
 }
