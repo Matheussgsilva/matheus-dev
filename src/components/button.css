@@ -6,7 +6,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-third);
-    margin: 15px 5px;
+    margin: 35px 5px;
     width: 200px;
     padding: 15px 0px;
     border-radius: 50px;
@@ -14,6 +14,7 @@
 
 #buttonCV {
     background-color: var(--color-sixth);
+    transition: 400ms;
 }
 
 #buttonCV:hover {
@@ -22,6 +23,7 @@
 
 #buttonContact {
     border: 2px solid var(--color-third);
+    transition: 400ms;
 }
 
 #buttonContact:hover {
