@@ -3,8 +3,8 @@
     width: 95%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-second);
-    padding: 30px 50px 20px;
+    overflow: hidden;
     align-items: center;
     filter: opacity(85%);
+    transition: 200ms;
 }
