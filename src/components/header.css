@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     background-color: var(--color-second);
