@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-third);
+    margin: 15px 5px;
+    width: 200px;
+    padding: 15px 0px;
+    border-radius: 50px;
+}
+
+#buttonCV {
+    background-color: var(--color-sixth);
+}
+
+#buttonCV:hover {
+    background-color: var(--color-second);
+}
+
+#buttonContact {
+    border: 2px solid var(--color-third);
+}
+
+#buttonContact:hover {
+    background-color: var(--color-second);
+    border: 2px solid var(--color-second);
+}
