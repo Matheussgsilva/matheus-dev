@@ -1,0 +1,36 @@
+.about {
+    background-image: url("../images/about-background.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 100px 120px;
+    font-family: var(--font-second);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about-info {
+    display: flex;
+    margin-top: 70px;
+}
+
+.about-photo {
+    background-color: aliceblue;
+    width: 2150px;
+    height: 550px;
+    margin-right:55px;
+}
+
+.about-contact {
+    margin: 45px 0px;
+}
+
+.about-media {
+    font-family: var(--font-first);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-sixth);
+}
