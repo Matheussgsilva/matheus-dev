@@ -1,3 +1,16 @@
+:root {
+    --color-first: #45D5D3;
+    --color-second: #132121;
+    --color-third: #FFFFFF;
+    --color-fourth: #38ACAB;
+    --color-fifth: #131313;
+    --color-sixth: #E83F3E;
+
+    --font-first: 'Raleway', sans-serif;
+    --font-second: 'Noticia Text', serif;
+}
+
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-first);
+    background-color: var(--color-first);
 }
