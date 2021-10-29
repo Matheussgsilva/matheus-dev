@@ -1,12 +1,39 @@
 .education {
     height: 100vh;
+    padding: 100px 150px;
+}
+
+.education-box {
+    margin: 50px 0px;
 }
 
 .education-box-speech {
+    display: inline-block;
     background-image: url("../images/speech-bubble.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 25px 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.education-box-one {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.education-info {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.education-school {
+    display: block;
+    margin: 10px 0px;
+    color: var(--color-sixth);
+    font-weight: bold;
 }
