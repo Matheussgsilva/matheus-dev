@@ -1,0 +1,47 @@
+.skill {
+    height: 100vh;
+    background-color: var(--color-third);
+    box-sizing: border-box;
+    padding: 100px 160px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.skill-box-id {
+    margin: 30px 0px;
+}
+
+.skill-bar {
+    margin-top: 10px;
+    width: 400px;
+    height: 12px;
+    background-color: var(--color-seventh);
+}
+
+#skill-bar-html {
+    width: 150px;
+    height: 12px;
+    background-color: var(--color-fifth);
+}
+
+#skill-bar-css {
+    width: 100px;
+    height: 12px;
+    background-color: var(--color-fifth);
+}
+
+#skill-bar-js {
+    width: 100px;
+    height: 12px;
+    background-color: var(--color-fifth);
+}
+
+#skill-bar-react {
+    width: 80px;
+    height: 12px;
+    background-color: var(--color-fifth);
+}
