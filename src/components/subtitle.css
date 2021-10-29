@@ -4,3 +4,7 @@
     font-weight: bold;
     text-align: center;
 }
+
+#black-subtitle {
+    color: var(--color-second);
+}
