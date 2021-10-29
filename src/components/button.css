@@ -10,23 +10,33 @@
     width: 200px;
     padding: 15px 0px;
     border-radius: 50px;
+    border: 2px solid var(--color-third);
+    transition: 400ms;
+}
+
+.button:hover {
+    background-color: var(--color-second);
+    border: 2px solid var(--color-second);
 }
 
 #buttonCV {
     background-color: var(--color-sixth);
+    border: 2px solid var(--color-sixth);
     transition: 400ms;
 }
 
 #buttonCV:hover {
     background-color: var(--color-second);
-}
-
-#buttonContact {
-    border: 2px solid var(--color-third);
-    transition: 400ms;
-}
-
-#buttonContact:hover {
-    background-color: var(--color-second);
     border: 2px solid var(--color-second);
+}
+
+.button-portfolio:hover {
+    background-color: var(--color-first);
+    border: 2px solid var(--color-first);
+}
+
+.button-portfolio:active {
+    background-color: var(--color-first);
+    border: 2px solid var(--color-first);
+    color: var(--color-second);
 }
