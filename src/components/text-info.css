@@ -5,3 +5,15 @@
     text-transform: uppercase;
     color: var(--color-fifth);
 }
+
+.text-info-footer {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.text-info-emph {
+    display: inline-block;
+    font-family: var(--font-first);
+    margin-bottom: 10px;
+}

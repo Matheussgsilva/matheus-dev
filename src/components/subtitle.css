@@ -8,3 +8,8 @@
 .black-subtitle {
     color: var(--color-second);    
 }
+
+.subtitle-footer {
+    font-size: 35px;
+    margin-bottom: 10px;
+}

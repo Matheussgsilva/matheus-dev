@@ -2,6 +2,7 @@
     background-color: var(--color-third);
     height: 100vh;
     padding: 100px 150px;
+    box-sizing: border-box;
 }
 
 form {
