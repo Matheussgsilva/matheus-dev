@@ -23,25 +23,25 @@
 }
 
 #skill-bar-html {
-    width: 150px;
     height: 12px;
     background-color: var(--color-fifth);
+    transition: 400ms;
 }
 
 #skill-bar-css {
-    width: 100px;
     height: 12px;
     background-color: var(--color-fifth);
+    transition: 400ms;
 }
 
 #skill-bar-js {
-    width: 100px;
     height: 12px;
     background-color: var(--color-fifth);
+    transition: 400ms;
 }
 
 #skill-bar-react {
-    width: 80px;
     height: 12px;
     background-color: var(--color-fifth);
+    transition: 400ms;
 }
