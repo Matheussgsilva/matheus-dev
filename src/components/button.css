@@ -40,3 +40,9 @@
     border: 2px solid var(--color-first);
     color: var(--color-second);
 }
+
+.button-contact {
+    background-color: var(--color-first);
+    width: 100%;
+    text-align: center;
+}
