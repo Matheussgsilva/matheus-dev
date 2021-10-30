@@ -13,7 +13,7 @@ form {
     padding-top: 18px;
 }
   
-.label-float input{
+.label-float input, .label-float textarea{
     background-color: transparent;
     border: 0;
     border-bottom: 2px solid var(--color-second);
@@ -27,11 +27,11 @@ form {
     border-radius:0;
 }
   
-.label-float input:focus{
+.label-float input:focus, .label-float textarea:focus{
     border-bottom: 2px solid var(--color-first);
 }
 
-.label-float input::placeholder{
+.label-float input::placeholder, .label-float textarea::placeholder{
     color: var(--color-second);
 }
   
@@ -54,30 +54,6 @@ form {
 .label-float input:not(:placeholder-shown) + label{
     font-size: 13px;
     margin-top: 0;
-    color: var(--color-second);
-}
-
-/*teste*/
-
-.label-float textarea{
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px solid var(--color-second);
-    outline: none;
-    width: 100%;
-    font-size: 18px;
-    transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -webkit-appearance:none;
-    border-radius:0;
-}
-
-.label-float textarea:focus{
-    border-bottom: 2px solid var(--color-first);
-}
-
-.label-float input::placeholder{
     color: var(--color-second);
 }
 
