@@ -1,6 +1,32 @@
 .title {
     font-size: 74px;
     font-weight: bold;
-    line-height: 85px;
     color: var(--color-third);
+    border-right: 10px solid var(--color-third);
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.typing-animation {
+    animation: blinkCursor 700ms steps(18) infinite normal,
+    typing 2.7s steps(18) 1s normal both;
+}
+
+@keyframes typing {
+    from{
+        width: 0px;
+    }
+    to {
+        width: 670px;
+    }
+}
+
+@keyframes blinkCursor {
+    form {
+        border-right-color: 10px solid var(--color-third);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
