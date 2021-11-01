@@ -6,30 +6,35 @@ buttonFreela.addEventListener("click", function freela() {
     buttonFreela.classList.add("button-portfolio-active")
     buttonStudies.classList.remove("button-portfolio-active")
     portfolioBox.innerHTML = ""
-    portfolioBox.insertAdjacentHTML("afterbegin", `
+    portfolioBox.insertAdjacentHTML("afterbegin",/*html*/ `
     <ul>
-        <li class="portfolio-images-freela"></li>
-        <li class="portfolio-images-freela"></li>
-        <li class="portfolio-images-freela"></li>
-        <li class="portfolio-images-freela"></li>
-        <li class="portfolio-images-freela"></li>
-        <li class="portfolio-images-freela"></li>
+        <li class=""><span class="subtitle">Em Breve</span></li>
     </ul>
     `)
 })
 
-buttonStudies.addEventListener("click", function freela() {
+buttonStudies.addEventListener("click", function study() {
     buttonFreela.classList.remove("button-portfolio-active")
     buttonStudies.classList.add("button-portfolio-active")
     portfolioBox.innerHTML = ""
-    portfolioBox.insertAdjacentHTML("afterbegin", `
+    portfolioBox.insertAdjacentHTML("afterbegin",/*html*/ `
     <ul>
-        <li class="portfolio-images"></li>
-        <li class="portfolio-images"></li>
-        <li class="portfolio-images"></li>
-        <li class="portfolio-images"></li>
-        <li class="portfolio-images"></li>
-        <li class="portfolio-images"></li>
+        <li class="portfolio-images">
+            <a href="https://matheussgsilva.github.io/consulta-cep/" target="_blank">
+            <img src="src/images/CEP.jpg" alt=""></a>
+        </li>
+        <li class="portfolio-images">
+            <a href="https://matheussgsilva.github.io/calculadora-imc/" target="_blank">
+            <img src="src/images/IMC.jpg" alt=""></a>
+        </li>
+        <li class="portfolio-images">
+            <a href="https://matheussgsilva.github.io/mathflix/" target="_blank">
+            <img src="src/images/mathflix.jpg" alt=""></a>
+        </li>
+        <li class="portfolio-images">
+            <a href="https://matheussgsilva.github.io/gerador-qrcode/" target="_blank">
+            <img src="src/images/qrcode.png" alt=""></a>
+        </li>
     </ul>
     `)
 })
