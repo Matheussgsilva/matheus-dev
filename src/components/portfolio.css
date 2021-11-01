@@ -21,3 +21,11 @@
     height: 400px;
     margin: 25px 15px;
 }
+
+.portfolio-images-freela {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 300px;
+    height: 400px;
+    margin: 25px 15px;
+}

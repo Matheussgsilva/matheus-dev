@@ -35,7 +35,7 @@
     border: 2px solid var(--color-first);
 }
 
-.button-portfolio:active {
+.button-portfolio-active {
     background-color: var(--color-first);
     border: 2px solid var(--color-first);
     color: var(--color-second);

@@ -10,7 +10,7 @@
 
 .typing-animation {
     animation: blinkCursor 700ms steps(18) infinite normal,
-    typing 2.7s steps(18) 1s normal both;
+    typing 2.6s steps(18) 1s normal both;
 }
 
 @keyframes typing {
