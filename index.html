@@ -30,9 +30,9 @@
 </head>
 <body>
     <header class="header">
-        <span class="subtitle">MS</span>
+        <span class="subtitle">&ltMS/&gt</span>
         <nav class="navigation">
-            <a class="action" href="#home" lang="en">Home</a>
+            <a class="action" href="#" lang="en">Home</a>
             <a class="action" href="#about">Sobre</a>
             <a class="action" href="#skill" lang="en">Skills</a>
             <a class="action" href="#projects">Projetos</a>
@@ -42,7 +42,6 @@
         </nav>
     </header>
     <section class="banner parallax" id="home">
-        <img class="banner-img" src="" alt="">
         <div class="box">
             <h1 class="title typing-animation">&lt Matheus Silva /&gt</h1>
             <h2 class="description">Frontend Developer</h2>
@@ -57,18 +56,21 @@
         <div class="about-info">
             <div class="about-photo">Foto</div>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit non ipsum, dolorum assumenda voluptates consequatur cupiditate blanditiis veniam, velit aspernatur vero eaque est voluptatibus in pariatur excepturi eos corrupti at?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias adipisci repudiandae delectus asperiores tempora, voluptatem cupiditate facilis nulla voluptas deserunt consequuntur maiores, culpa alias aliquid ex! Omnis dolorem deserunt mollitia.</p>
+                <p>Olá!! Me chamo Matheus Silva, seja bem vindx ao meu portfolio!</p>
+                <p>Sou apaixonado por tecnologia, rock'n roll e cerveja artesanal. Estou em processo de migraçao de área profissional e aqui você verá alguns dos meus projetos de estudo e também profissionais.</p>
+                <p>Abaixo você encontra mais informações e minhas redes sociais.</p>
                 <ul class="about-contact">
-                    <li>Idade</li>
-                    <li>Endereço</li>
-                    <li>Email</li>
-                    <li>Telefone</li>
-                    <li>Freelance</li>
+                    <li>Idade: 37</li>
+                    <li>Endereço: Lorena/SP - Brasil</li>
+                    <li>Email: contato@matheussilva.dev.br</li>
+                    <li>Telefone: +55 (12) 99173-2270</li>
+                    <li>Freelance: disponível</li>
                 </ul>
-                <ul class="about-media"> Redes Sociais
-                    <li>GitHub</li>
-                    <li>Linkedin</li>
-                    <li>Instagram</li>
+                <label class="about-media">Redes Sociais</label>
+                <ul class="about-media">
+                    <li><img src="src/images/github-sign.png" alt="Logo do GitHub"></li>
+                    <li><img src="src/images/linkedin.png" alt="Logo do Linkkedin"></li>
+                    <li><img src="src/images/instagram.png" alt="Logo do Instagram"></li>
                 </ul>
             </article>
         </div>
@@ -148,8 +150,8 @@
     <section class="portfolio" id="projects">
         <h2 class="subtitle">Portifólio</h2>
         <div class="portfolio-button">
-            <a href="#" class="button button-portfolio">Estudos</a>
-            <a href="#" class="button button-portfolio">Freelas</a>
+            <a class="button button-portfolio button-portfolio-active" id="portfolio-studies">Estudos</a>
+            <a class="button button-portfolio" id="portfolio-freela">Freelas</a>
         </div>
         <div class="portfolio-box-images">
             <ul>
@@ -226,5 +228,6 @@
         </div>
     </footer>
     <script src="src/script/style.js"></script>
+    <script src="src/script/portfolio.js"></script>
 </body>
 </html>
