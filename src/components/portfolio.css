@@ -32,4 +32,10 @@
     .portfolio {
         padding: 30px 15px;
     }
+
+    .portfolio-images {
+        width: 250px;
+        height: 300px;
+        margin: 20px 10px;
+    }
 }

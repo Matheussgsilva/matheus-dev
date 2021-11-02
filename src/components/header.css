@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    width: 95%;
+    width: 100%;
     top: 0;
     padding: 30px 50px 20px;
     display: flex;
@@ -9,4 +9,5 @@
     align-items: center;
     filter: opacity(85%);
     transition: 200ms;
+    box-sizing: border-box;
 }
