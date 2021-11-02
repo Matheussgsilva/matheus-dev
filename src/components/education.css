@@ -37,3 +37,24 @@
     color: var(--color-sixth);
     font-weight: bold;
 }
+
+@media (max-width:600px) {
+    .education {
+        padding: 30px 15px;
+    }
+
+    .education-box-one {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .education-box-speech {
+        width: 150px;
+        height: 100px;
+    }
+
+    .education-info {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

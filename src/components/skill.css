@@ -45,3 +45,9 @@
     background-color: var(--color-fifth);
     transition: 400ms;
 }
+
+@media (max-width:600px) {
+    .skill {
+        padding: 30px 15px;
+    }
+}
