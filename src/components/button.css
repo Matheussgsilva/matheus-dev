@@ -46,3 +46,10 @@
     width: 100%;
     text-align: center;
 }
+
+@media (max-width:600px) {
+    .button {
+        margin: 35px 5px 0px;
+    }
+    
+}

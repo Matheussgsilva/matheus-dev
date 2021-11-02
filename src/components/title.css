@@ -30,3 +30,31 @@
         border-right-color: transparent;
     }
 }
+
+@media (max-width:600px) {
+    .title {
+        font-size: 45px;
+        border-right: 5px solid var(--color-third);
+        border-left: 5px solid transparent;
+        margin: 15px auto;
+    }
+
+    @keyframes typing {
+        from{
+            width: 0px;
+        }
+        to {
+            width: 400px;
+        }
+    }
+    
+    @keyframes blinkCursor {
+        form {
+            border-right-color: 5px solid var(--color-third);
+            border-left: 5px solid transparent;
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
+}
