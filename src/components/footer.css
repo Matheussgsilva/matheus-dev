@@ -54,3 +54,26 @@
     width: 30px;
     margin: 10px 5px;
 }
+
+@media (max-width:600px) {
+    .footer-info {
+        flex-direction: column;
+        height: 300px;
+    }
+    
+    .footer-info-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--color-fourth);
+    }
+    
+    .footer-info-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        width: 100%;
+        background-color: var(--color-first);
+    }
+}
