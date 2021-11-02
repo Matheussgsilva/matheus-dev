@@ -50,4 +50,12 @@
     .skill {
         padding: 30px 15px;
     }
+
+    .skill-box {
+        padding-top: 60px;
+    }
+
+    .skill-bar {
+        width: 300px;
+    }
 }
