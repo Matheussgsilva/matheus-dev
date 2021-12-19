@@ -33,7 +33,7 @@
 </head>
 <body>
     <header class="header">
-        <span class="subtitle">&ltMS/&gt</span>
+        <span class="subtitle" id="header-subtitle">&ltMS/&gt</span>
         <nav class="navigation">
             <div class="navigation-link">
                 <a class="action" href="#" lang="en">Home</a>
@@ -45,6 +45,17 @@
                 <a class="action" href="#form-area">Contato</a>
             </div>
         </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>            
+            <ul class="mobile-menu">
+                <li><a class="action" href="#" lang="en">Home</a></li>
+                <li><a class="action" href="#about">Sobre</a></li>
+                <li><a class="action" href="#skill" lang="en">Skills</a></li>
+                <li><a class="action" href="#projects">Projetos</a></li>
+            </ul>            
+        </div>
     </header>
     <section class="banner parallax" id="home">
         <div class="box">
@@ -280,5 +291,6 @@
     </footer>
     <script src="src/script/style.js"></script>
     <script src="src/script/portfolio.js"></script>
+    <script src="src/script/mobile.js"></script>
 </body>
 </html>
