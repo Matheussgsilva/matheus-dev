@@ -29,6 +29,10 @@
     transform: scale(1.02);
 }
 
+#portfolio-subtitle {
+    margin: auto;
+}
+
 @media (max-width:600px) {
     .portfolio {
         padding: 30px 0px;

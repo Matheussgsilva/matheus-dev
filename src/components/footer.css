@@ -36,6 +36,10 @@
     height: 40%;
 }
 
+.footer-media a {
+    text-decoration: none;
+}
+
 .footer-name {
     display: flex;
     justify-content: center;

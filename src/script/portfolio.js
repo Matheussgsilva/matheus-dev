@@ -7,9 +7,9 @@ buttonFreela.addEventListener("click", function freela() {
     buttonStudies.classList.remove("button-portfolio-active")
     portfolioBox.innerHTML = ""
     portfolioBox.insertAdjacentHTML("afterbegin",/*html*/ `
-    <ul>
-        <li class=""><span class="subtitle">Em Breve</span></li>
-    </ul>
+    
+        <span class="subtitle" id="portfolio-subtitle">Em Breve</span>
+    
     `)
 })
 

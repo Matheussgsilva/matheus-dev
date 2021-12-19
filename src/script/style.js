@@ -6,23 +6,23 @@ function scrollShowNav() {
    } else {
       document.getElementsByClassName("header")[0].style.backgroundColor = "transparent";
    }
-   if (document.body.scrollTop > 1040 || document.documentElement.scrollTop > 1040) {
-      document.getElementById("skill-bar-html").style.width = "150px";
+   if (document.body.scrollTop > 1080 || document.documentElement.scrollTop > 1080) {
+      document.getElementById("skill-bar-html").style.width = "160px";
    } else {
       document.getElementById("skill-bar-html").style.width = "0px";
    }
-   if (document.body.scrollTop > 1140 || document.documentElement.scrollTop > 1140) {
-      document.getElementById("skill-bar-css").style.width = "100px";
+   if (document.body.scrollTop > 1180 || document.documentElement.scrollTop > 1180) {
+      document.getElementById("skill-bar-css").style.width = "140px";
    } else {
       document.getElementById("skill-bar-css").style.width = "0px";
    }
-   if (document.body.scrollTop > 1240 || document.documentElement.scrollTop > 1240) {
-      document.getElementById("skill-bar-js").style.width = "100px";
+   if (document.body.scrollTop > 1280 || document.documentElement.scrollTop > 1280) {
+      document.getElementById("skill-bar-js").style.width = "120px";
    } else {
       document.getElementById("skill-bar-js").style.width = "0px";
    }
-   if (document.body.scrollTop > 1340 || document.documentElement.scrollTop > 1340) {
-      document.getElementById("skill-bar-react").style.width = "80px";
+   if (document.body.scrollTop > 1380 || document.documentElement.scrollTop > 1380) {
+      document.getElementById("skill-bar-react").style.width = "100px";
    } else {
       document.getElementById("skill-bar-react").style.width = "0px";
    }
