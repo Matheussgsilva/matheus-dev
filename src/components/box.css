@@ -23,4 +23,8 @@
         margin-top: 350px;
 
     }
+
+    #home {
+        background-size: 100%;
+    }
 }
