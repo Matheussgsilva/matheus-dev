@@ -4,7 +4,7 @@ function scrollShowNav() {
    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       document.getElementsByClassName("header")[0].style.backgroundColor = "black";
    } else {
-      document.getElementsByClassName("header")[0].style.backgroundColor = "transparent";
+      document.getElementsByClassName("header")[0].style.backgroundColor = "var(--color-first)";
    }
    if (document.body.scrollTop > 1080 || document.documentElement.scrollTop > 1080) {
       document.getElementById("skill-bar-html").style.width = "160px";

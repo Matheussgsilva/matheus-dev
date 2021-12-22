@@ -19,7 +19,8 @@
 
 .about-photo {
     display: inline-block;
-    background-color: aliceblue;
+    background-image: url('../images/portfolio-photo-01.jpg');
+    background-position: center center;
     width: 450px;
     height: 450px;
     margin-right:55px;

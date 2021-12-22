@@ -62,7 +62,7 @@
             <h1 class="title typing-animation">&lt Matheus Silva /&gt</h1>
             <h2 class="description">Frontend Developer</h2>
             <div>
-                <a href="#" lang="en" class="button" id="buttonCV">Download CV</a>
+                <a href="./src/cv/Matheus dos Santos Gomes da Silva.pdf" target="download" lang="en" class="button" id="buttonCV">Download CV</a>
                 <a href="#form-area" class="button" id="buttonContact">Contato</a>
             </div>
         </div>
@@ -216,12 +216,12 @@
         <h2 class="subtitle black-subtitle">Contato</h2>
         <form>
             <div class="label-float">
-                <input type="text" placeholder=" " required/>
+                <input type="text" name="nome" placeholder=" " required/>
                 <label>Nome</label>
             </div>
               <br/>
             <div class="label-float">
-                <input type="text" placeholder=" " required/>
+                <input type="text" name="email" placeholder=" " required/>
                 <label>Email</label>
             </div>
             <br>
@@ -231,10 +231,11 @@
             </div>
             <br>
             <div class="label-float">
-                <textarea name="message-area" id="" cols="40" rows="5" placeholder=" " required></textarea>
-                <label for="message-area">Mensagem</label>
+                <textarea name="message" id="" cols="40" rows="5" placeholder=" " required></textarea>
+                <label for="message">Mensagem</label>
             </div>
-            <a href="#" class="button button-contact">Enviar</a>
+            <input type="submit" name="submit" value="Enviar" class="button button-contact"/>
+            <!--<a href="#" class="button button-contact">Enviar</a>-->
         </form>
     </section>
     <footer class="footer">

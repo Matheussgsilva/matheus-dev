@@ -9,6 +9,7 @@
     filter: opacity(85%);
     transition: 200ms;
     box-sizing: border-box;
+    background-color: var(--color-first);
 }
 
 #header-subtitle {

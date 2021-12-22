@@ -30,6 +30,14 @@
     border: 2px solid var(--color-second);
 }
 
+#buttonContact {
+    background-color: var(--color-first);
+}
+
+#buttonContact:hover {
+    background-color: var(--color-second);
+}
+
 .button-portfolio:hover {
     background-color: var(--color-first);
     border: 2px solid var(--color-first);

@@ -4,7 +4,13 @@
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 350px;
+    padding: 350px;
+}
+
+#home {
+    display: block;
+    background-image: url('../images/header-photo-01.jpg');
+    height: 100vh;
 }
 
 @media (max-width:600px) {
