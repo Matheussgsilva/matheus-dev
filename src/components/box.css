@@ -5,6 +5,7 @@
     text-align: center;
     box-sizing: border-box;
     padding: 350px;
+    background-color: transparent;
 }
 
 #home {
@@ -19,12 +20,7 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        box-sizing: border-box;
-        margin-top: 350px;
-
-    }
-
-    #home {
-        background-size: 100%;
+        box-sizing: border-box;       
+        padding: 350px 0px 0px;
     }
 }
