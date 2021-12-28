@@ -19,7 +19,6 @@
 .portfolio-images {
     display: inline-block;
     width: 300px;
-    height: 400px;
     margin: 25px 15px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.322);
     transition: transform 250ms;
