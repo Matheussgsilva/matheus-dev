@@ -47,4 +47,8 @@
         display: flex;
         justify-content: center;
     }
+
+    .portfolio-images {
+        display: inline-block;
+    }
 }
