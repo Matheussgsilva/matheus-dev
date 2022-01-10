@@ -15,4 +15,4 @@ Site Portfólio, contendo informações pessoais, profissionais e também projet
 ## :clipboard: Aprendizados:
 Projeto criado com o intuito de servir como portfólio. Neste projeto utilizei componentização, responsividade e posicionamentos com flexbox. Utilizando JavaScript acrescentei controle de scroll para mudança de cor do header e para alterar o valor de width da barra de skills.
 
-### :link: <a href="https://www.matheussilva.dev.br" target="_blank">Clique aqui</a> para ver o projeto em produção.
+### :link: <a href="https://matheussgsilva.github.io/matheus-dev/" target="_blank">Clique aqui</a> para ver o projeto em produção.
