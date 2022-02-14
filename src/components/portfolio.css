@@ -16,7 +16,7 @@
 
 .portfolio-box {
     display: flex;
-    width: 450px;
+    width: 500px;
     height: 300px;
     border: 2px solid var(--color-first);
     border-radius: 15px;
@@ -30,7 +30,7 @@
 .portfolio-info-header {
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 500px;
     margin-bottom: 10px;
 }
 
@@ -39,13 +39,13 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .portfolio-info-title h3 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
+    line-height: 40px;
 }
 
 .portfolio-image {
@@ -63,8 +63,8 @@
 .portfolio-link {
     display: flex;
     align-items: center;
-    padding-left: 20px;
-    padding-bottom: 15px;
+    padding: 0px 20px 15px;
+    
 }
 
 .portfolio-link img {
@@ -86,6 +86,7 @@
 
 .portfolio-techs {
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .portfolio-techs img {
@@ -98,28 +99,6 @@
     border-radius: 5px;
 }
 
-
-/*
-.portfolio-box-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.portfolio-images {
-    display: inline-block;
-    width: 300px;
-    margin: 25px 15px;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.322);
-    transition: transform 250ms;
-}
-
-.portfolio-images:hover {
-    transform: scale(1.02);
-}
-*/
 #portfolio-subtitle {
     margin: auto;
 }
@@ -129,22 +108,25 @@
         padding: 70px 0px 50px;
     }
 
-    .portfolio-images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        max-width: 250px;
-        max-height: 320px;
-        margin: 10px auto;
+    .portfolio-box {
+        max-width: 450px;
+        max-height: 350px;
+    }
+    
+    .portfolio-info-header {
+        max-width: 450px;
+    }
+    
+
+    .portfolio-info-title h3 {
+        font-size: 25px;
     }
 
-    .portfolio-box-images {
-        display: flex;
-        justify-content: center;
+    .portfolio-image img {
+        width: 100px;
     }
 
-    .portfolio-images-mobile {
-        display: inline-block;
+    .portfolio-link a {
+        font-size: 14px;
     }
 }
