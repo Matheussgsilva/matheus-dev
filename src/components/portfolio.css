@@ -20,6 +20,7 @@
     height: 300px;
     border: 2px solid var(--color-first);
     border-radius: 15px;
+    margin-top: 40px;
 }
 
 .portfolio-box:hover {
@@ -89,6 +90,12 @@
 
 .portfolio-techs img {
     margin-right: 10px;
+}
+
+#styled {
+    width: 32px;
+    background-color: #FFF;
+    border-radius: 5px;
 }
 
 
