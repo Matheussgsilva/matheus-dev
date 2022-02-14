@@ -108,15 +108,18 @@
         padding: 70px 0px 50px;
     }
 
-    .portfolio-box {
+    .portfolio-box-projects {
         max-width: 450px;
+    }
+
+    .portfolio-box {
+        max-width: 350px;
         max-height: 350px;
     }
     
     .portfolio-info-header {
-        max-width: 450px;
-    }
-    
+        max-width: 350px;
+    }    
 
     .portfolio-info-title h3 {
         font-size: 25px;
