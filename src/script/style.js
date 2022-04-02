@@ -7,23 +7,33 @@ function scrollShowNav() {
       document.getElementsByClassName("header")[0].style.backgroundColor = "var(--color-first)";
    }
    if (document.body.scrollTop > 1080 || document.documentElement.scrollTop > 1080) {
-      document.getElementById("skill-bar-html").style.width = "160px";
+      document.getElementById("html-bar").style.width = "180px";
    } else {
-      document.getElementById("skill-bar-html").style.width = "0px";
+      document.getElementById("html-bar").style.width = "0px";
    }
    if (document.body.scrollTop > 1180 || document.documentElement.scrollTop > 1180) {
-      document.getElementById("skill-bar-css").style.width = "140px";
+      document.getElementById("css-bar").style.width = "160px";
    } else {
-      document.getElementById("skill-bar-css").style.width = "0px";
+      document.getElementById("css-bar").style.width = "0px";
    }
    if (document.body.scrollTop > 1280 || document.documentElement.scrollTop > 1280) {
-      document.getElementById("skill-bar-js").style.width = "120px";
+      document.getElementById("js-bar").style.width = "150px";
    } else {
-      document.getElementById("skill-bar-js").style.width = "0px";
+      document.getElementById("js-bar").style.width = "0px";
    }
    if (document.body.scrollTop > 1380 || document.documentElement.scrollTop > 1380) {
-      document.getElementById("skill-bar-react").style.width = "100px";
+      document.getElementById("react-bar").style.width = "140px";
    } else {
-      document.getElementById("skill-bar-react").style.width = "0px";
+      document.getElementById("react-bar").style.width = "0px";
+   }
+   if (document.body.scrollTop > 1420 || document.documentElement.scrollTop > 1420) {
+      document.getElementById("styled-bar").style.width = "120px";
+   } else {
+      document.getElementById("styled-bar").style.width = "0px";
+   }
+   if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
+      document.getElementById("ts-bar").style.width = "80px";
+   } else {
+      document.getElementById("ts-bar").style.width = "0px";
    }
 }
