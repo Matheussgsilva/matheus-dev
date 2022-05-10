@@ -60,6 +60,11 @@
     border-radius: 0px 13px 0px 0px;
 }
 
+.portfolio-image .padding-logo {
+    width: 120px;
+    height: 120px;
+}
+
 .portfolio-link {
     display: flex;
     align-items: center;
@@ -127,6 +132,11 @@
 
     .portfolio-image img {
         width: 100px;
+    }
+
+    .portfolio-image .padding-logo {
+        width: 100px;
+        height: 100px;
     }
 
     .portfolio-link a {
